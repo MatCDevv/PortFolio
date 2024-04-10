@@ -86,6 +86,30 @@ main {
 .Imageprofile {
   width: 360px;
   border-radius: 15px;
-  border: 5px solid rgba(rgba(255, 0, 0, 0.352), rgba(0, 128, 0, 0.352), rgba(0, 0, 255, 0.411), alpha);
+  /*position: relative;*/
 }
+
+/* Code de Nicolas
+.Imageprofile::before{
+  position: absolute;
+  z-index: 10;
+  content : "";
+  width: 360px;
+  height: 360px;
+  background-color: red;
+}*/
+
+.projettitre {
+  margin-top: 20px;
+  margin-left: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  font-family: "Anek Kannada", sans-serif;
+  font-style: normal;
+  font-size: 19px;
+}
+
+
 
