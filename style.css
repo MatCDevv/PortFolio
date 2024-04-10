@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anek+Kannada:wdth,wght@90,100..800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anek+Kannada:wdth,wght@90,100..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Kannada:wdth,wght@90,100..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -10,15 +11,15 @@
     display: flex;
     flex-wrap: wrap;
   }
+
   .spacebettween {
     justify-content: space-between;
-  
   }
+
   header {
     align-items: center;
-    background-color: #d6903a;
-    width: 100%;
-    
+    background-color: #a79a8a;
+    width: 100%; 
   }
 
  .Imagetete {
@@ -47,3 +48,44 @@
   font-style: normal;
   font-size: 19px;
 }
+
+main {
+  width: 100%;
+  background-color: #e2e2e2;
+}
+
+.textegauche1 {
+  width: 50%;
+  margin-top: 80px;
+  margin-left:100px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  font-style:italic;
+  font-size: 35px;
+}
+
+.textegauche2 {
+  width: 50%;
+  margin-top: 45px;
+  margin-left:100px;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style:normal;
+  font-size: 15px;
+}
+
+.imageprogau {
+  width: 50%;
+  justify-content:right;
+  align-items: baseline;
+  margin-bottom: 40px;
+  margin-left: 510px;
+  margin-top: -160px;
+}
+
+.Imageprofile {
+  width: 360px;
+  border-radius: 15px;
+  border: 5px solid rgba(rgba(255, 0, 0, 0.352), rgba(0, 128, 0, 0.352), rgba(0, 0, 255, 0.411), alpha);
+}
+
