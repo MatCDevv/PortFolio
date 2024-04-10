@@ -18,7 +18,7 @@
 
   header {
     align-items: center;
-    background-color: #a79a8a;
+    background-color: #818181;
     width: 100%; 
   }
 
@@ -111,5 +111,55 @@ main {
   font-size: 19px;
 }
 
+.card {
+  width: 300px;
+  margin-top: 100px;
+  padding: 8px;
+  border-radius: 16px;
+  box-shadow: 4px 4px 12px hsla(0, 0%, 0%, 0.379);
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style:normal;
+  font-size: 10px;
+}
 
+.card h3 {
+  margin-top: 16px;
+  margin-bottom: 13px;
+  color: black;
+  font-family: "Anek Kannada", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.btn2 {
+  padding: 12px 32px;
+  background-color: #818181;
+  color: #000;
+  text-decoration: none;
+  border-radius: 8px;
+  display: inline-block;
+  margin-top: 20px;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style:normal;
+  font-size: 12px;
+}
+
+.passions {
+  margin-top: 20px;
+  margin-left: 100px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  font-family: "Anek Kannada", sans-serif;
+  font-style: normal;
+  font-size: 19px;
+}
 
