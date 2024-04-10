@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Kannada:wdth,wght@90,100..800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -16,8 +18,32 @@
     align-items: center;
     background-color: #d6903a;
     width: 100%;
+    
   }
 
+ .Imagetete {
+    margin: 0 593px;
+    width: 64px;
+    margin-top: 7px;
+    margin-bottom: 11px;
+    object-fit:cover;
+ }
+  
   ul {
     list-style-type: none;
+    margin: 0 448px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
   }
+
+.textband {
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  font-family: "Anek Kannada", sans-serif;
+  font-style: normal;
+  font-size: 19px;
+}
