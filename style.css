@@ -20,20 +20,24 @@
     align-items: center;
     background-color: #818181;
     width: 100%; 
+    position: sticky;
+    top:0;
   }
 
+
+
  .Imagetete {
-    margin: 0 593px;
-    width: 64px;
-    margin-top: 7px;
-    margin-bottom: 11px;
+    margin-left: 623px;
+    width: 40px;
+    margin-top: 8px;
+    margin-bottom: 2px;
     object-fit:cover;
  }
   
   ul {
     list-style-type: none;
-    margin: 0 448px;
-    margin-bottom: 2px;
+    margin-left: 490px;
+    margin-bottom: 1px;
     display: flex;
     justify-content: space-between;
     gap: 25px;
@@ -46,7 +50,7 @@
   color: black;
   font-family: "Anek Kannada", sans-serif;
   font-style: normal;
-  font-size: 19px;
+  font-size: 16px;
 }
 
 main {
@@ -86,7 +90,6 @@ main {
 .Imageprofile {
   width: 360px;
   border-radius: 15px;
-  /*position: relative;*/
 }
 
 /* Code de Nicolas
@@ -98,18 +101,6 @@ main {
   height: 360px;
   background-color: red;
 }*/
-
-.projettitre {
-  margin-top: 20px;
-  margin-left: 100px;
-  text-transform: uppercase;
-  text-decoration: none;
-  text-align: center;
-  color: black;
-  font-family: "Anek Kannada", sans-serif;
-  font-style: normal;
-  font-size: 19px;
-}
 
 .card {
   width: 300px;
@@ -151,6 +142,18 @@ main {
   font-size: 12px;
 }
 
+.projettitre {
+  margin-top: 20px;
+  margin-left: 207px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  font-family: "Anek Kannada", sans-serif;
+  font-style: normal;
+  font-size: 19px;
+}
+
 .passions {
   margin-top: 20px;
   margin-left: 100px;
@@ -162,4 +165,3 @@ main {
   font-style: normal;
   font-size: 19px;
 }
-
