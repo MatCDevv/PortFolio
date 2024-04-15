@@ -179,10 +179,10 @@ main {
   font-size: 19px;
 }
 
-.litcard {
-  width: 200px;
+.litcard1 {
+  width: 160px;
   margin-top: 100px;
-  padding: 8px;
+  padding:50px;
   border-radius: 16px;
   box-shadow: 4px 4px 12px hsla(0, 0%, 0%, 0.379);
   font-family: "Space Mono", monospace;
@@ -191,9 +191,53 @@ main {
   font-size: 20px;
   margin-right: 70px;
   margin-bottom: 60px;
+  padding-left: 33px;
 }
 
-.material-symbols-outlined {
+.litcard2 {
+  width: 160px;
+  margin-top: 100px;
+  padding: 50px;
+  border-radius: 16px;
+  box-shadow: 4px 4px 12px hsla(0, 0%, 0%, 0.379);
+  font-family: "Space Mono", monospace;
+  font-weight: 200;
+  font-style:normal;
+  font-size: 20px;
+  margin-right: 70px;
+  margin-bottom: 60px;
+  padding-left: 27px;
+}
+
+.litcard3 {
+  width: 160px;
+  margin-top: 100px;
+  padding: 50px;
+  border-radius: 16px;
+  box-shadow: 4px 4px 12px hsla(0, 0%, 0%, 0.379);
+  font-family: "Space Mono", monospace;
+  font-weight: 200;
+  font-style:normal;
+  font-size: 20px;
+  margin-right: 70px;
+  margin-bottom: 60px;
+  padding-left: 26px;
+}
+
+.t1 {
+  padding-left: 19px;
   font-size: 60px;
-  align-items: ;
+  align-items: center;
+}
+
+.t2 {
+  padding-left: 23px;
+  font-size: 60px;
+  align-items: center;
+}
+
+.t3 {
+  padding-left: 23px;
+  font-size: 60px;
+  align-items: center;
 }
