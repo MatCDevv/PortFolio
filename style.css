@@ -188,11 +188,12 @@ main {
   font-family: "Space Mono", monospace;
   font-weight: 200;
   font-style:normal;
-  font-size: 10px;
+  font-size: 20px;
   margin-right: 70px;
   margin-bottom: 60px;
 }
 
 .material-symbols-outlined {
-  width: 100px !important;
+  font-size: 60px;
+  align-items: ;
 }
