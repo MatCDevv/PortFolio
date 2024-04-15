@@ -18,7 +18,7 @@
 
   header {
     align-items: center;
-    background-color: #818181;
+    background-color: #4b4b4b;
     width: 100%; 
     position: sticky;
     top:0;
@@ -27,7 +27,7 @@
 
 
  .Imagetete {
-    margin-left: 623px;
+    margin-left: 690px;
     width: 40px;
     margin-top: 8px;
     margin-bottom: 2px;
@@ -36,7 +36,7 @@
   
   ul {
     list-style-type: none;
-    margin-left: 490px;
+    margin-left: 555px;
     margin-bottom: 1px;
     display: flex;
     justify-content: space-between;
@@ -146,7 +146,7 @@ main {
 
 .projettitre {
   margin-top: 20px;
-  margin-left: 207px;
+  margin-left: 275px;
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
@@ -158,7 +158,7 @@ main {
 
 .passions {
   margin-top: 20px;
-  margin-left: 100px;
+  margin-left: 176px;
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
@@ -170,7 +170,7 @@ main {
 
 .titrequali {
   margin-top: 20px;
-  margin-left: 185px;
+  margin-left: 275px;
   text-transform: uppercase;
   text-decoration: none;
   color: black;
@@ -240,4 +240,14 @@ main {
   padding-left: 23px;
   font-size: 60px;
   align-items: center;
+}
+
+.sectar {
+
+margin-left: 28px;
+}
+
+footer {
+  width: 100%;
+  background-color: #4b4b4b;
 }
