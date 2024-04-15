@@ -112,6 +112,8 @@ main {
   font-weight: 700;
   font-style:normal;
   font-size: 10px;
+  margin-right: 70px;
+  margin-bottom: 60px;
 }
 
 .card h3 {
@@ -164,4 +166,33 @@ main {
   font-family: "Anek Kannada", sans-serif;
   font-style: normal;
   font-size: 19px;
+}
+
+.titrequali {
+  margin-top: 20px;
+  margin-left: 185px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-family: "Anek Kannada", sans-serif;
+  font-style: normal;
+  font-size: 19px;
+}
+
+.litcard {
+  width: 200px;
+  margin-top: 100px;
+  padding: 8px;
+  border-radius: 16px;
+  box-shadow: 4px 4px 12px hsla(0, 0%, 0%, 0.379);
+  font-family: "Space Mono", monospace;
+  font-weight: 200;
+  font-style:normal;
+  font-size: 10px;
+  margin-right: 70px;
+  margin-bottom: 60px;
+}
+
+.material-symbols-outlined {
+  width: 100px !important;
 }
