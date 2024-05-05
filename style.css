@@ -78,6 +78,12 @@ ul {
     background-color: #000;
   }
 
+  main {
+    width: 100%;
+    /*background-color: #e2e2e2;*/
+  }
+
+
 /* HEADER */
 
 .headerindex {
@@ -104,20 +110,10 @@ ul {
     
   }
 
-.textband {
-  text-transform: uppercase;
-  text-decoration: none;
-  text-align: center;
-  color: black;
-  font-family: "Anek Kannada", sans-serif;
-  font-style: normal;
-  font-size: 16px;
-}
+/* HEADER */
 
-main {
-  width: 100%;
-  background-color: #e2e2e2;
-}
+/* MAIN */
+
 
 .textegauche1 {
   width: 50%;
