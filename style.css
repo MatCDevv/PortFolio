@@ -45,12 +45,6 @@
     margin-left: auto;
   }
 
-  .container-test {
-    max-width:400px;
-    margin-top: 140px;
-    margin-right: auto;
-    margin-left: auto;
-  }
   
 ul {
     text-transform: none;
@@ -122,13 +116,21 @@ ul {
 
 /* MAIN */
 
+/* Text/Titre Haut de Page*/
 
-.style-text-firsttitre {
-  font-family: "Caveat", cursive;
-  font-size: 40px;
-  gap:20px;
-  color:#fff;
+
+.div-text-hautpage-transforme {
+ margin-top: 150px;
+ margin-left: auto;
+ margin-right: auto;
+ font-family: "Caveat", cursive;
+ font-size: 50px;
+ color:#fff;
 }
+
+
+
+/* Text/Titre Haut de Page*/
 
 
 
