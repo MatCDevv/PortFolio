@@ -7,8 +7,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Anek+Kannada:wdth,wght@90,100..800&family=Inter:wght@200&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@665&family=Luxurious+Roman&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Anek+Kannada:wdth,wght@90,100..800&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:wght@200&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@665&family=Luxurious+Roman&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Anek+Kannada:wdth,wght@90,100..800&family=Caveat:wght@400..700&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:wght@200&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@665&family=Luxurious+Roman&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* Font Last */
 
+/* Font Inter */
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Anek+Kannada:wdth,wght@90,100..800&family=Caveat:wght@400..700&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@665&family=Luxurious+Roman&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* Font Caveat*/
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Anek+Kannada:wdth,wght@90,100..800&family=Caveat:wght@400..700&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:wght@200&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@665&family=Luxurious+Roman&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* Robot */
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Anek+Kannada:wdth,wght@90,100..800&family=Caveat:wght@400..700&family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@665&family=Luxurious+Roman&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 /* STANDAR */
 
 * {
@@ -97,13 +103,13 @@ ul {
 }
 
  .logoheader {
-    width: 140px;
+    width: 100px;
     margin-top: 12px;
-    margin-left: 12px;
+    margin-left: 22px;
  }
   
   .categohead {
-    margin-left: 680px;
+    margin-left: 700px;
     gap:90px;
     font-size: 16px;
     font-family: "Inter", sans-serif;
@@ -123,18 +129,49 @@ ul {
  margin-top: 150px;
  margin-left: auto;
  margin-right: auto;
+ margin-bottom: 150px;
  font-family: "Caveat", cursive;
  font-size: 50px;
  color:#fff;
 }
 
 
-
 /* Text/Titre Haut de Page*/
 
+/* Bio */
 
+.section-bio {
+  background-color: #474747;
+  padding-top: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  gap:60px
+}
 
+.text-presentation {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size:16px;
+  color:#ffffff;
+  margin-bottom: 20px;
+}
 
+.position-text{
+  padding-top: 55px;
+}
+
+.image-presentation {
+  width: 400px;
+}
+
+/* Bio */
+
+.section-projet {
+  background-color: #000;
+  height: 500px;
+}
 
 .textegauche1 {
   width: 50%;

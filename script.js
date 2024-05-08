@@ -73,6 +73,7 @@ class TextScramble {
     counter = (counter + 1) % phrases.length
   }
   
+  
   next()
       
   /* Transformer / Transition Texte (++) */
