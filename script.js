@@ -57,8 +57,8 @@ class TextScramble {
   
   
   var phrases = [
-    'Welcome to my PortFolio', 
-    'Bienvenue sur mon PortFolio'
+    'Bienvenue sur mon PortFolio',
+    'Welcome to my PortFolio'
   ]
   
   

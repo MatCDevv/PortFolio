@@ -99,23 +99,37 @@ ul {
   position: sticky;
   top:0px;
   z-index: 100;
-  background-color: #ffffff00;
 }
 
  .logoheader {
-    width: 76px;
+    width: 64px;
     margin-top: 16px;
     margin-left: 26px;
  }
   
   .categohead {
-    margin-left: 700px;
+    margin-left: 696px;
     gap:90px;
     font-size: 16px;
     font-family: "Inter", sans-serif;
     font-weight: 200;
-    color: #fff;
     
+  }
+
+  .a-categorie {
+    color: #fff; /*#929292*/
+    transition: all 0.5s ease-out;
+  }
+  
+  .a-categorie:hover,
+  .a-categorie:focus {
+    color:#fff; /*#929292*/
+    border: 1px solid #fff; /*#929292*/
+    border-radius: 4px;
+    padding-top:2px;
+    padding-bottom: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
   }
 
 /* HEADER */
@@ -154,7 +168,7 @@ ul {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
-  font-size:16px;
+  font-size:17px;
   color:#000;
   margin-bottom: 20px;
 }
