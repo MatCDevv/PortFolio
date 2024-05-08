@@ -68,7 +68,7 @@ class TextScramble {
   let counter = 0
   var next = () => {
     fx.setText(phrases[counter]).then(() => {
-      setTimeout(next, 2100)
+      setTimeout(next, 2400)
     })
     counter = (counter + 1) % phrases.length
   }
@@ -79,14 +79,8 @@ class TextScramble {
   /* Transformer / Transition Texte (++) */
    
 
-
-
-
-
-
-
-
 /* For Library */
+
 
 AOS.init();
 

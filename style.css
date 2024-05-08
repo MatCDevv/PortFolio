@@ -103,9 +103,9 @@ ul {
 }
 
  .logoheader {
-    width: 100px;
-    margin-top: 12px;
-    margin-left: 22px;
+    width: 76px;
+    margin-top: 16px;
+    margin-left: 26px;
  }
   
   .categohead {
@@ -126,10 +126,10 @@ ul {
 
 
 .div-text-hautpage-transforme {
- margin-top: 150px;
+ margin-top: 180px;
  margin-left: auto;
  margin-right: auto;
- margin-bottom: 150px;
+ margin-bottom: 220px;
  font-family: "Caveat", cursive;
  font-size: 50px;
  color:#fff;
@@ -141,7 +141,8 @@ ul {
 /* Bio */
 
 .section-bio {
-  background-color: #474747;
+  /*background-color: #474747;*/
+  background-color: #fff;
   padding-top: 80px;
   padding-left: 100px;
   padding-right: 100px;
@@ -154,7 +155,7 @@ ul {
   font-weight: 300;
   font-style: normal;
   font-size:16px;
-  color:#ffffff;
+  color:#000;
   margin-bottom: 20px;
 }
 
