@@ -81,6 +81,10 @@ ul {
     color:#fff;
   }
 
+  .noir {
+    color:#000;
+  }
+
   body {
     /*background-color: #950000;*/
     background-color: #000000;
@@ -94,11 +98,22 @@ ul {
 
 /* HEADER */
 
+.cha-header-clip { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+ /* pointer-events: none;*/
+  clip-path: inset(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
 .headerindex {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  position: sticky;
-  top:0px;
-  z-index: 100;
+  z-index: 1;
 }
 
  .logoheader {
@@ -156,7 +171,7 @@ ul {
 
 .section-bio {
   /*background-color: #474747;*/
-  background-color: #fff;
+  background-color: #dcdcdc;
   padding-top: 80px;
   padding-left: 100px;
   padding-right: 100px;
