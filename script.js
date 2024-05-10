@@ -86,6 +86,8 @@ class TextScramble {
       headerEl.classList.add('headerindex-scrolled');
     } else if (window.scrollY <= 500) {
       headerEl.classList.remove('headerindex-scrolled');
+    } if (window.scrollY > 1000) {
+      headerEl.classList.remove('headerindex-scrolled');
     }
   });
 
@@ -95,6 +97,8 @@ class TextScramble {
     if (window.scrollY > 500) {
       headerLogo.classList.add('logoheader-scrolled');
     } else if (window.scrollY <= 500) {
+      headerLogo.classList.remove('logoheader-scrolled');
+    }  if (window.scrollY > 1000) {
       headerLogo.classList.remove('logoheader-scrolled');
     }
   });
