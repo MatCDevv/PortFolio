@@ -112,30 +112,42 @@ html[data-theme='dark'] {
 /* HEADER */
 
 header a {
-  color: #fff;
   text-decoration: none;
+  color: inherit;
  }
 
  header ul {
   list-style-type: none;
   display: flex;
-
  }
  
-
 .headerindex {
   position: sticky;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1;
+  color:#fff;
+  transition: all 1s;
+}
+
+.headerindex-scrolled {
+  color:#000;
 }
 
  .logoheader {
     width: 64px;
     margin-top: 16px;
     margin-left: 26px;
+    transition: all 1s;
  }
+
+ .logoheader-scrolled {
+  width: 64px;
+  margin-top: 16px;
+  margin-left: 26px;
+  filter: brightness(0);
+}
   
   .categohead {
     margin-left: 680px;
@@ -143,51 +155,19 @@ header a {
     font-size: 16px;
     font-family: "Inter", sans-serif;
     font-weight: 200;
-    
   }
 
-  /*
-   
-  .cha-header-clip { 
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  pointer-events :auto;
-  clip-path: inset(0% 0%, 100% 0%, 100% 100%, 0% 100%);
-}
-  
   .a-categorie {
-    color: #fff;
-    transition: all 0.5s ease-out;
+    transition: all 0.4s;
   }
   
   .a-categorie:hover,
   .a-categorie:focus {
-    border: 1px solid #fff; 
-    border-radius: 4px;
-    padding-top:2px;
-    padding-bottom: 2px;
-    padding-left: 4px;
-    padding-right: 4px;
-  }*/
-
-  /*TEST
-  .a-categorie2 {
-    color: #000000;
-    transition: all 0.5s ease-out;
+    border-bottom: 1px solid; 
+    border-radius: 1px;
+    padding-left:1px;
+    padding-bottom: 0.6px;
   }
-  
-  .a-categorie2:hover,
-  .a-categorie2:focus {
-    border: 1px solid #000000;
-    border-radius: 4px;
-    padding-top:2px;
-    padding-bottom: 2px;
-    padding-left: 4px;
-    padding-right: 4px;
-  }*/
 
 /* HEADER */
 

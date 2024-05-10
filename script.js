@@ -71,13 +71,37 @@ class TextScramble {
       setTimeout(next, 2400)
     })
     counter = (counter + 1) % phrases.length
-  }
-  
+  };
   
   next()
       
   /* Transformer / Transition Texte (++) */
    
+  /* Header Swap (Bandeau)*/
+   
+  const headerEl = document.querySelector ('.headerindex');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 500) {
+      headerEl.classList.add('headerindex-scrolled');
+    } else if (window.scrollY <= 500) {
+      headerEl.classList.remove('headerindex-scrolled');
+    }
+  });
+
+  const headerLogo = document.querySelector ('.logoheader');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 500) {
+      headerLogo.classList.add('logoheader-scrolled');
+    } else if (window.scrollY <= 500) {
+      headerLogo.classList.remove('logoheader-scrolled');
+    }
+  });
+
+  /* Header Swap (Bandeau)*/
+
+
 
 /* For Library */
 
