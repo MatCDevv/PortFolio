@@ -86,7 +86,7 @@ class TextScramble {
       headerEl.classList.add('headerindex-scrolled');
     } else if (window.scrollY <= 500) {
       headerEl.classList.remove('headerindex-scrolled');
-    } if (window.scrollY > 1000) {
+    } if (window.scrollY > 980) {
       headerEl.classList.remove('headerindex-scrolled');
     }
   });
@@ -98,7 +98,7 @@ class TextScramble {
       headerLogo.classList.add('logoheader-scrolled');
     } else if (window.scrollY <= 500) {
       headerLogo.classList.remove('logoheader-scrolled');
-    }  if (window.scrollY > 1000) {
+    }  if (window.scrollY > 980) {
       headerLogo.classList.remove('logoheader-scrolled');
     }
   });

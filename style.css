@@ -126,7 +126,7 @@ header a {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 100;
   color:#fff;
   transition: all 1s;
 }
@@ -197,7 +197,7 @@ header a {
 
 .section-bio {
   /*background-color: #474747;*/
-  background-color: #dcdcdc;
+  background-color: #ffffff;
   padding-top: 80px;
   padding-left: 100px;
   padding-right: 100px;
@@ -420,7 +420,6 @@ margin-left: 28px;
 
 footer {
   width: 100%;
-  background-color: #4b4b4b;
 }
 
 
